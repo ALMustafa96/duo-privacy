@@ -8,6 +8,7 @@
 <meta property="og:title" content="Duo Games - 35+ two-player games on one device">
 <meta property="og:description" content="تحدَّ صديقك على جهاز واحد. بدون إنترنت وبدون حساب.">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://almustafa96.github.io/duo-privacy/img/feature.png">
 <meta name="theme-color" content="#0B1020">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230B1020'/><text x='14' y='68' font-size='56' fill='%23FF3D5A' font-family='Arial' font-weight='900'>✕</text><circle cx='68' cy='64' r='15' fill='none' stroke='%232F8CFF' stroke-width='9'/></svg>">
 <style>
@@ -50,6 +51,12 @@ body.en-mode .ar{display:none}
 body.en-mode .en{display:block}
 body.en-mode span.en,body.en-mode b.en,body.en-mode a.en{display:inline}
 body.en-mode a.btn.en{display:inline-block}
+
+.appicon{width:104px;height:104px;border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.5);margin-bottom:10px}
+.shots{display:flex;gap:14px;overflow-x:auto;padding:6px 4px 18px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shots img{height:440px;width:auto;border-radius:18px;border:1px solid var(--line);scroll-snap-align:center;flex:0 0 auto;background:var(--card)}
+.shots::-webkit-scrollbar{height:6px}.shots::-webkit-scrollbar-thumb{background:#2a3358;border-radius:9px}
+@media(max-width:600px){.shots img{height:380px}}
 </style>
 </head>
 <body>
@@ -57,7 +64,7 @@ body.en-mode a.btn.en{display:inline-block}
 <nav><div class="brand"><b>✕</b> DUO <i>○</i></div><button class="lang" id="t" type="button">English</button></nav>
 
 <section class="hero">
-  <div class="logo"><span class="x">✕</span><span class="o">○</span></div>
+  <img class="appicon" src="img/icon.png" alt="Duo Games" width="104" height="104">
   <h1>DUO GAMES</h1>
   <p class="lead ar">أكثر من 35 لعبة للاعبين اثنين على جهاز واحد. بدون إنترنت، بدون حساب. افتح وتحدَّ صديقك فوراً.</p>
   <p class="lead en">35+ two-player games on a single device. No internet, no account. Open it and challenge a friend instantly.</p>
@@ -83,6 +90,8 @@ body.en-mode a.btn.en{display:inline-block}
   <div class="cat"><h3>🚀 مغامرة</h3><p>معركة الدبابات، سومو الدفع، المتاهة المتقابلة، الثعبان المزدوج، قفز القمم</p></div>
   <div class="cat"><h3>🎯 وأكثر</h3><p>رمي السهام، ثلاثة أكواب، حرب الفقاعات، الصندوق المتحرك، سيمون المزدوج</p></div>
 </div>
+<h2>لقطات من اللعبة</h2>
+<div class="shots"><img src="img/s1.png" alt="لقطة 1" loading="lazy"><img src="img/s2.png" alt="لقطة 2" loading="lazy"><img src="img/s3.png" alt="لقطة 3" loading="lazy"><img src="img/s4.png" alt="لقطة 4" loading="lazy"></div>
 <h2>لماذا Duo Games؟</h2>
 <div class="feat">
   <div class="f"><div class="e">🤖</div><h3>ضد الكمبيوتر</h3><p>سهل أو متوسط أو صعب، العب وحدك متى شئت.</p></div>
@@ -107,6 +116,8 @@ body.en-mode a.btn.en{display:inline-block}
   <div class="cat"><h3>🚀 Action</h3><p>Tank Battle, Sumo Push, Mirror Maze, Double Snake, Peak Jump</p></div>
   <div class="cat"><h3>🎯 And more</h3><p>Darts, Three Cups, Bubble War, Stack Tower, Double Simon</p></div>
 </div>
+<h2>Screenshots</h2>
+<div class="shots"><img src="img/s1.png" alt="Screenshot 1" loading="lazy"><img src="img/s2.png" alt="Screenshot 2" loading="lazy"><img src="img/s3.png" alt="Screenshot 3" loading="lazy"><img src="img/s4.png" alt="Screenshot 4" loading="lazy"></div>
 <h2>Why Duo Games?</h2>
 <div class="feat">
   <div class="f"><div class="e">🤖</div><h3>Vs computer</h3><p>Easy, medium or hard. Play solo anytime.</p></div>
